@@ -256,11 +256,11 @@ if (!isNode) {
     }
   
     document.getElementById('diagram-form').addEventListener('submit', function(e) {
-      getKanji($('#kanji').val()[0]);
+      getKanji(document.getElementById('kanji').value);
       e.preventDefault();
     })
     document.getElementById('download-diagram').addEventListener('click', function() {
-      getKanji($('#kanji').val()[0], true);
+      getKanji(document.getElementById('kanji').value, true);
     })
   });
 }
