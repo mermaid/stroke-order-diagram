@@ -1,31 +1,35 @@
 let isNode = (typeof window === 'undefined')
 
 if (isNode) {
-  module.exports = (kanji) => {
-    return new Promise((resolve, reject) => {
-      const jsdom = require('jsdom');
-      const { JSDOM } = jsdom;
-      const { window } = new JSDOM(`
-      <html>
-      <script type="text/javascript" src="file://${require.resolve('snapsvg')}"></script>
-      <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        window.onModulesLoaded();
-      });
-      </script>
-      </html>`,
-      {
-        runScripts: 'dangerously',
-        resources: 'usable'
-      });
-      global.document = window.document;
-      global.window = window;
+  const jsdom = require('jsdom');
+  const { JSDOM } = jsdom;
+  const { window } = new JSDOM(`
+  <html>
+  <script type="text/javascript" src="file://${require.resolve('snapsvg')}"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    window.onModulesLoaded();
+  });
+  </script>
+  </html>`,
+  {
+    runScripts: 'dangerously',
+    resources: 'usable'
+  });
+  global.document = window.document;
+  global.window = window;
 
-      window.onModulesLoaded = async () => {
-        global.Snap = window.Snap
-    
-        resolve(await getKanji(kanji));
-      };
+  let loaded = new Promise((resolve, reject) => {
+    window.onModulesLoaded = async () => {
+      global.Snap = window.Snap
+
+      resolve();
+    };
+  })
+
+  module.exports = (kanji) => {
+    return loaded.then(async () => {
+      return getKanji(kanji);
     })
   }  
 }

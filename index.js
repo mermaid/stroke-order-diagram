@@ -19,6 +19,9 @@
   const k = args.kanji;
 
   for (let k of args.kanji.split(',')) {
+    if (!k) {
+      continue;
+    }
     const diagramGenerator = require('./tsurukame-stroke-order.js')
   
     const codePoint = k && k.codePointAt(0).toString(16).padStart(5, '0');
