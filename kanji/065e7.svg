@@ -1,0 +1,44 @@
+<svg style="width: 500px; height: 100px;" viewbox="0 0 500 100"><style>
+.stroke_order_diagram--outer_container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.stroke_order_diagram--guide_line {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+  stroke-dasharray:8, 8;
+}
+
+.stroke_order_diagram--bounding_box {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 4;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+}
+
+.stroke_order_diagram--current_path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.stroke_order_diagram--existing_path {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin:round;
+}
+
+.stroke_order_diagram--path_start {
+  fill: rgba(255, 0, 0, 0.7);
+  stroke:none
+}</style><desc>Created with Snap</desc><defs></defs><line x1="1" x2="499" y1="1" y2="1" class="stroke_order_diagram--bounding_box"></line><line x1="1" x2="1" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><line x1="1" x2="499" y1="99" y2="99" class="stroke_order_diagram--bounding_box"></line><line x1="0" x2="500" y1="50" y2="50" class="stroke_order_diagram--guide_line"></line><line x1="50" x2="50" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="99" x2="99" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="kvg:065e7-s1" kvg:type="㇑" d="M23.16,23c1.05,1.05,1.7,2.5,1.7,3.82c0,0.77-0.16,42.52-0.2,59.68c-0.01,2.88-0.01,5.07-0.01,6.25" transform="matrix(1,0,0,1,-4,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk2v596cn2luz" kvg:type="㇑" d="M23.16,23c1.05,1.05,1.7,2.5,1.7,3.82c0,0.77-0.16,42.52-0.2,59.68c-0.01,2.88-0.01,5.07-0.01,6.25" transform="matrix(1,0,0,1,-4,-4)" class="stroke_order_diagram--current_path"></path><circle cx="23.16" cy="23" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,-4,-4)"></circle><line x1="150" x2="150" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="199" x2="199" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="pathSk2v596cn2lv2" kvg:type="㇑" d="M23.16,23c1.05,1.05,1.7,2.5,1.7,3.82c0,0.77-0.16,42.52-0.2,59.68c-0.01,2.88-0.01,5.07-0.01,6.25" transform="matrix(1,0,0,1,96,-4)" class="stroke_order_diagram--existing_path"></path><path id="kvg:065e7-s2" kvg:type="㇑" d="M46,23.3c1.1,1.1,1.51,2.53,1.51,4.56c0,3.28,0,41.59,0,57.76c0,3.59,0,6.09,0,6.88" transform="matrix(1,0,0,1,96,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk2v596cn2lv4" kvg:type="㇑" d="M46,23.3c1.1,1.1,1.51,2.53,1.51,4.56c0,3.28,0,41.59,0,57.76c0,3.59,0,6.09,0,6.88" transform="matrix(1,0,0,1,96,-4)" class="stroke_order_diagram--current_path"></path><circle cx="46" cy="23.3" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,96,-4)"></circle><line x1="250" x2="250" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="299" x2="299" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="pathSk2v596cn2lv7" kvg:type="㇑" d="M23.16,23c1.05,1.05,1.7,2.5,1.7,3.82c0,0.77-0.16,42.52-0.2,59.68c-0.01,2.88-0.01,5.07-0.01,6.25" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk2v596cn2lv8" kvg:type="㇑" d="M46,23.3c1.1,1.1,1.51,2.53,1.51,4.56c0,3.28,0,41.59,0,57.76c0,3.59,0,6.09,0,6.88" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--existing_path"></path><path id="kvg:065e7-s3" kvg:type="㇕a" d="M48.55,25.3c3.54-0.25,30.01-3,33.24-3.3c2.69-0.25,4.46,1.25,4.46,4.06c0,2.48-0.05,41.35-0.07,57.31c0,3.83-0.01,6.32-0.01,6.61" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk2v596cn2lva" kvg:type="㇕a" d="M48.55,25.3c3.54-0.25,30.01-3,33.24-3.3c2.69-0.25,4.46,1.25,4.46,4.06c0,2.48-0.05,41.35-0.07,57.31c0,3.83-0.01,6.32-0.01,6.61" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--current_path"></path><circle cx="48.55" cy="25.3" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,196,-4)"></circle><line x1="350" x2="350" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="399" x2="399" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="pathSk2v596cn2lvd" kvg:type="㇑" d="M23.16,23c1.05,1.05,1.7,2.5,1.7,3.82c0,0.77-0.16,42.52-0.2,59.68c-0.01,2.88-0.01,5.07-0.01,6.25" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk2v596cn2lve" kvg:type="㇑" d="M46,23.3c1.1,1.1,1.51,2.53,1.51,4.56c0,3.28,0,41.59,0,57.76c0,3.59,0,6.09,0,6.88" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk2v596cn2lvf" kvg:type="㇕a" d="M48.55,25.3c3.54-0.25,30.01-3,33.24-3.3c2.69-0.25,4.46,1.25,4.46,4.06c0,2.48-0.05,41.35-0.07,57.31c0,3.83-0.01,6.32-0.01,6.61" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--existing_path"></path><path id="kvg:065e7-s4" kvg:type="㇐a" d="M48.43,54.99c8.32-0.74,31.36-3.04,36.79-3.04" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk2v596cn2lvh" kvg:type="㇐a" d="M48.43,54.99c8.32-0.74,31.36-3.04,36.79-3.04" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--current_path"></path><circle cx="48.43" cy="54.99" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,296,-4)"></circle><line x1="450" x2="450" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="499" x2="499" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="pathSk2v596cn2lvk" kvg:type="㇑" d="M23.16,23c1.05,1.05,1.7,2.5,1.7,3.82c0,0.77-0.16,42.52-0.2,59.68c-0.01,2.88-0.01,5.07-0.01,6.25" transform="matrix(1,0,0,1,396,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk2v596cn2lvl" kvg:type="㇑" d="M46,23.3c1.1,1.1,1.51,2.53,1.51,4.56c0,3.28,0,41.59,0,57.76c0,3.59,0,6.09,0,6.88" transform="matrix(1,0,0,1,396,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk2v596cn2lvm" kvg:type="㇕a" d="M48.55,25.3c3.54-0.25,30.01-3,33.24-3.3c2.69-0.25,4.46,1.25,4.46,4.06c0,2.48-0.05,41.35-0.07,57.31c0,3.83-0.01,6.32-0.01,6.61" transform="matrix(1,0,0,1,396,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk2v596cn2lvn" kvg:type="㇐a" d="M48.43,54.99c8.32-0.74,31.36-3.04,36.79-3.04" transform="matrix(1,0,0,1,396,-4)" class="stroke_order_diagram--existing_path"></path><path id="kvg:065e7-s5" kvg:type="㇐a" d="M48.8,86.71C59.88,86,73.12,85,85.05,84.68" transform="matrix(1,0,0,1,396,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk2v596cn2lvp" kvg:type="㇐a" d="M48.8,86.71C59.88,86,73.12,85,85.05,84.68" transform="matrix(1,0,0,1,396,-4)" class="stroke_order_diagram--current_path"></path><circle cx="48.8" cy="86.71" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,396,-4)"></circle></svg>
