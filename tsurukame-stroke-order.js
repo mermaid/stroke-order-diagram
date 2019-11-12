@@ -252,6 +252,7 @@ if (!isNode) {
     let kanji = getParameterByName('kanji');
     if (kanji) {
       let dl = getParameterByName('dl');
+      document.getElementById('kanji').value = kanji;
       getKanji(kanji, dl === '1');
     }
   

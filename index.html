@@ -28,7 +28,7 @@
       background-color: #0074D9;
       color: white;
       border: solid 1px #7FDBFF;
-      border-radius: 2px;
+      border-radius: 4px;
       cursor: pointer;
     }
     #diagram-form button:hover {
@@ -44,6 +44,9 @@
       width: 100%;
       overflow-x: auto;
       overflow-y: hidden;
+    }
+    footer {
+      margin-top: 50px;
     }
   </style>
   <body>
@@ -72,7 +75,8 @@
     <div id="diagram-container">
     </div>
 
-    <div>Based off the stroke order diagram generator on Jisho.org but with thicker lines</div>
-    <div>Which in turn uses data from KanjiVG</div>
+    <footer>
+        <p>Based off the stroke order diagram generator on Jisho.org but with thicker lines, which in turn uses data from KanjiVG to generate diagrams</p>
+    </footer>
   </body>
 </html>
